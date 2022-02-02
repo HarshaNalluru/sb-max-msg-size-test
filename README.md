@@ -1,7 +1,7 @@
 ## Steps to repro the error
 
 1. Clone this project
-2. `npm install` in this folder to install all the dependencies
+2. `npm install` in this folder to install all the dependencies [Expects that you have [Node.js](https://nodejs.org/en/download/) downloaded/installed in your system]
 3. Create `.env` file and populate it with `SERVICEBUS_CONNECTION_STRING` in it as shown in `sample.env`
 4. Install `ts-node` globally (to be able to run the typescript file directly)
    > `npm install ts-node -g`
